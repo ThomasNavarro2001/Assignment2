@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://java.sun.com/jsf/html"
+      xmlns:f="http://java.sun.com/jsf/core"
+      xmlns:p="http://primefaces.org/ui">
+
+<h:head>
+</h:head>
+<body>
+<h:form>
+    <div class="p-field p-grid">
+        <div class="p-field" style="margin: 2em">
+            <p:outputLabel for="questionOne" style="margin-right: 1em">Store name</p:outputLabel>
+            <p:inputText id="StoreName" type="text" value="#{trivia.question1}"/>
+            <p:commandButton type="button" id="Name" icon="pi pi-cog"/>
+            <p:tooltip for="firstHelp" value="It's not Oakville definitely" showEffect="clip" hideEffect="fold"/>
+        </div>
+
+        <div class="p-field" style="margin: 2em">
+            <p:outputLabel for="questionOne" style="margin-right: 1em">Location</p:outputLabel>
+            <p:inputText id="StoreLocation" type="text" value="#{trivia.question1}"/>
+            <p:commandButton type="button" id="Location" icon="pi pi-cog"/>
+            <p:tooltip for="firstHelp" value="It's not Oakville definitely" showEffect="clip" hideEffect="fold"/>
+        </div>
+
+        <div class="p-field" style="margin: 2em">
+            <p:outputLabel for="questionOne" style="margin-right: 1em">AddtoInvetoryList</p:outputLabel>
+            <p:inputText id="StoreList" type="text" value="#{trivia.question1}"/>
+            <p:commandButton type="button" id="List" icon="pi pi-cog"/>
+            L
+            <p:tooltip for="firstHelp" value="It's not Oakville definitely" showEffect="clip" hideEffect="fold"/>
+        </div>
+
+
+
+    </div>
+</h:form>
+</body>
+</html>
